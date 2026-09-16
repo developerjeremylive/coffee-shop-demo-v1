@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "typecheck": "tsc --noEmit",
-    "deploy": "npm run build && wrangler versions upload",
+    "deploy": "npm run build && wrangler deploy",
     "pages:deploy": "npm run build && wrangler pages deploy dist"
   },
   "dependencies": {
